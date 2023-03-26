@@ -33,13 +33,14 @@
     - 머신 구성 : e2-small
     - 지역 : asia-northeast3-a
 
-- DB 서버 환경 : MongoDB Atlas
+- DB 서버 환경 : 
+    MongoDB Atlas
     - Version : 5.0.15
     - Data Size : 512MB
     - 지역 : GCP Seoul(asia-northeast3)
     - 용도 : 차트정보 및 앨범커버 이미지
 
-                Cloud SQL
+    Cloud SQL
     - 데이터베이스 엔진 : MySQL
     - Version : 8.0
     - Data Size : 100GB
