@@ -34,6 +34,7 @@
     - 지역 : asia-northeast3-a
 
 - DB 서버 환경 : 
+
     MongoDB Atlas
     - Version : 5.0.15
     - Data Size : 512MB
