@@ -31,6 +31,7 @@
 
 - 배포 서버 환경 : Google Cloud Platform
     - 머신 구성 : e2-small
+    - 부팅 디스크 : Ubuntu 20.04 LTS
     - 지역 : asia-northeast3-a
 
 - DB 서버 환경 : 
