@@ -3,7 +3,7 @@
 + 배포 링크 : [Last Carnival 링크](http://34.64.74.137:8080/)
 
 
-![screensh](img/last_index.png)
+![screensh](project/img/last_index.png)
 
 
 ## 목적 
