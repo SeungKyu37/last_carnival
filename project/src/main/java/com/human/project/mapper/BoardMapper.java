@@ -25,7 +25,7 @@ public interface BoardMapper {
 	public int update(Board board) throws Exception;
 	
 	// 게시글 삭제
-	public int delete(int boardNo) throws Exception;
+	public int delete(String noList) throws Exception;
 
 	// 게시글 검색
 	public List<Board> search(String keyword) throws Exception;
@@ -42,6 +42,8 @@ public interface BoardMapper {
 	// [검색] 게시글 개수
 	public int countWithKeyword(@Param("option") Option option) throws Exception;
 	
+	// 게시글 조회수
+	public int joinCntUp(int boardNo) throws Exception;
 }
 
 

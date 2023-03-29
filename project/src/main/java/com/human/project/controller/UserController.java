@@ -1,5 +1,7 @@
 package com.human.project.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.human.project.domain.Users;
@@ -27,7 +30,7 @@ public class UserController {
 	public String index() {
 		log.info("사용자 페이지...");
 		
-		return "/user/index";
+		return "user/index";
 	}
 	
 	// ID 중복확인
@@ -55,7 +58,7 @@ public class UserController {
 	public ResponseEntity<Boolean> checkUserNickname(Users user) throws Exception {
 		
 		Users selectedNickname = userService.select(user);
-		String nickname = user.getUserNick();
+		String nickname = user.getNickname();
 		log.info("닉네임" + nickname);
 		log.info("selected" + selectedNickname);
 		
@@ -68,6 +71,17 @@ public class UserController {
 		// 닉네임 중복 아님(사용가능)
 		log.info("닉네임 사용가능 : " + nickname);
 		return new ResponseEntity<Boolean>(true, HttpStatus.OK);
+	}
+
+	// 유저 삭제
+	@PostMapping("/delete")
+	public String userDel(@RequestParam(value="chkbox[]") List<String> userNoList) throws Exception{
+		int result = userService.delete(userNoList);
+		
+		if (result > 0) log.info("회원 삭제 성공");
+		else 			log.info("회원 삭제 실패");
+		
+		return "redirect:/admin";
 	}
 	
 }
