@@ -25,6 +25,12 @@
 
 [youtube api 발급 방법](https://terrific-close-029.notion.site/youtube-api-key-46556000dd57468691bafacfdf603aac)
 
+## 사이트맵
+![screensh](img/sitemap.png)
+
+## ERD
+![screensh](img/erd.png)
+
 ## 개발 환경
 - 프레임워크 : Spring boot 3.0.4
     - 라이브러리 : spring-boot-starter-web (3.0.4), spring-boot-starter-security(3.0.4), spring-boot-starter-oauth2-client(3.0.4), spring-boot-starter-thymeleaf(3.0.4), thymeleaf-layout-dialect(3.2.0), thymeleaf-extras-springsecurity5(3.1.1), spring-boot-starter-validation(3.0.4), spring-boot-devtools (3.0.4), mybatis-spring-boot-starter(2.3.0), lombok (1.18.26), spring-boot-starter-tomcat (3.0.4), spring-boot-starter-test (3.0.4), tomcat-embed-jasper (10.1.7), spring-boot-starter-data-mongodb (3.0.4), okhttp (4.9.2), commons-io (2.8.0), guava (31.0.1-jre), commons-codec (1.15)
