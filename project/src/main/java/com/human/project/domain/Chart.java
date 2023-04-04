@@ -8,7 +8,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Document(collection = "charts")
+@Document(collection = "chart")
 public class Chart {
 
     @Id
