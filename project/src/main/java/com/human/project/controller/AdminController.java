@@ -33,7 +33,7 @@ public class AdminController {
 		model.addAttribute("usersList",usersList);
 		model.addAttribute("page", page);
 		
-		return "/admin/index";
+		return "admin/index";
 	}
 	
 	// ADMIN 권한 관리
@@ -44,7 +44,7 @@ public class AdminController {
 		model.addAttribute("usersList",usersList);
 		model.addAttribute("page", page);
 		
-		return "/admin/role";
+		return "admin/role";
 	}
 	
 	// 유저 선택 삭제
