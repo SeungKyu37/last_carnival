@@ -131,14 +131,13 @@
 				<td style="border:1;" colspan=5 th:text="${board.content}"></td>
 			</tr>
 		</table>
-	
+		<hr>
 	</form>
 	
-	<hr>
 	
 	 <!-- 버튼 -->
 	 <div align="right">
-		<span th:if="${board.userId == userId}">
+		<span th:if="${board.userId == userId} or ${#authorization.expression('hasRole(''ADMIN'')')}">
 			<button type="button" onclick="moveUpdate()" class="btn">수정</button>
 			<button type="button" onclick="boardDelete()" class="btn">삭제</button>
 		</span>
