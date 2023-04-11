@@ -31,8 +31,8 @@
 
 [youtube api 발급 방법](https://terrific-close-029.notion.site/youtube-api-key-46556000dd57468691bafacfdf603aac)
 
-## 사이트맵
-![screensh](img/sitemap.png)
+## 요구사항 정의서
+![요구사항_정의서](https://user-images.githubusercontent.com/120995555/231071141-e2164b49-37e7-4f46-b680-1303b0c8884f.png)
 
 ## ERD
 ![그림1](https://user-images.githubusercontent.com/120995522/230264333-8c11f3b6-e373-4134-af9e-8acc661e93be.png)
@@ -92,10 +92,7 @@
 - 관리자 페이지
 
 
-<details>
-<summary><h2>프로젝트 리뷰</h2></summary>
-<div markdown="1">
-<details>
+## 프로젝트 리뷰
 
 <summary><h3>메인 화면 👆</h3></summary>
 <div markdown="1">
