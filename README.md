@@ -94,6 +94,7 @@
 
 ## 프로젝트 리뷰
 
+<details>
 <summary><h3>메인 화면 👆</h3></summary>
 <div markdown="1">
 
