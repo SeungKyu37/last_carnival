@@ -1,4 +1,4 @@
-# Last Carnival(~2023.04.04)
+# Last Carnival(~2023.04.07)
 
 + 배포 링크 : [Last Carnival 링크](http://34.64.74.137:8080/)
 
@@ -74,18 +74,20 @@
 
 
 ## 프로젝트 기간
-- 2023-03-23 ~ 2023-04-04
+- 2023-03-27 ~ 2023-04-07
 
 ## 팀구성
 - 사용언어 : Java 17.0.4.1
 - 작업툴 : VS code
 - 인원 : 4명
 - 주요업무 : Spring boot 프레임워크를 이용한 웹개발 구현 코드 작성
-    + 나의 업무 : 프로젝트 리더로서 프로젝트를 이끌었습니다. Google Cloud Platform을 사용해 배포를 시작으로 MongoDB Atlas, Cloud SQL(My SQL)을 이용한 DB 서버 구축, OkHttp를 이용한 API 데이터 가져오는 업무, DB에 이미지 저장과 업로드, 회원정보 조회, 수정, 삭제 기능, 차트페이지, 프로필페이지를 맡았습니다.
-- 기간 : 2023-03-22 ~ 2023-04-12
+    + 나의 업무 : 프로젝트 리더로서 프로젝트를 이끌었습니다. Google Cloud Platform을 사용해 배포를 시작으로 MongoDB Atlas, Cloud SQL(My SQL)을 이용한 DB 서버 구축, OkHttp를 이용한 API 데이터 가져오는 업무, DB에 이미지 저장과 업로드, 회원정보 조회, 수정, 삭제 기능, index페이지(차트), 프로필페이지를 맡았습니다.
+- 기간 : 2023-03-27 ~ 2023-04-07
 ***
 
 ## 주요 기능
+- 차트
+- 회원가입, 로그인
 - 게시판
 - 소셜 회원가입(카카오)
 - 관리자 페이지
@@ -96,7 +98,7 @@
 <div markdown="1">
 <details>
 
-<summary><h3>메인 화면</h3></summary>
+<summary><h3>메인 화면 👆</h3></summary>
 <div markdown="1">
 
 - 해외 음원 차트 50개를 보여 줌
@@ -110,7 +112,7 @@
 ***
 
 <details>
-<summary><h3>회원가입</h3></summary>
+<summary><h3>회원가입 👆</h3></summary>
 <div markdown="1">
 
 - 중복확인 한개라도 수행 안할 시 등록이 안됨
@@ -127,7 +129,7 @@
 ***
 
 <details>
-<summary><h3>프로필</h3></summary>
+<summary><h3>프로필 👆</h3></summary>
 <div markdown="1">
 
 ![프로필](https://user-images.githubusercontent.com/120995529/230287658-a474c314-aade-43b4-a54f-25b1adce236f.png)
@@ -135,19 +137,19 @@
 - 내 정보 수정
 ![개인정보수정](https://user-images.githubusercontent.com/120995529/230287823-183caf22-a069-40d0-bd98-b2776e71bd0c.png)
 
-  - 이메일 변경 시 중복확인 및 유효성 검사
-  ![이메일변경](https://user-images.githubusercontent.com/120995529/230290211-f978c6d4-1bef-459a-a8c0-5e4f26c2026f.jpg)
+- 이메일 변경 시 중복확인 및 유효성 검사
+![이메일변경](https://user-images.githubusercontent.com/120995529/230290211-f978c6d4-1bef-459a-a8c0-5e4f26c2026f.jpg)
 
 
-  - 비밀번호 변경 시 유효성 검사
-  ![비밀번호변경휴요성](https://user-images.githubusercontent.com/120995529/230287999-6a4df00d-eccf-4e8a-8602-640e2aafd713.png)
+- 비밀번호 변경 시 유효성 검사
+![비밀번호변경휴요성](https://user-images.githubusercontent.com/120995529/230287999-6a4df00d-eccf-4e8a-8602-640e2aafd713.png)
 </div>
 </details>
 
 ***
 
 <details>
-<summary><h3>로그인</h3></summary>
+<summary><h3>로그인 👆</h3></summary>
 <div markdown="1">
 
 - 아이디 저장 및 자동 로그인 기능
@@ -160,7 +162,7 @@
 ***
 
 <details>
-<summary><h3>아이디 / 비밀번호 찾기</h3></summary>
+<summary><h3>아이디 / 비밀번호 찾기 👆</h3></summary>
 <div markdown="1">
 
 - 비밀번호 찾기 수행 시 비밀번호는 임시 비밀번호로 변경
@@ -171,7 +173,7 @@
 ***
 
 <details>
-<summary><h3>커뮤니티</h3></summary>
+<summary><h3>커뮤니티 👆</h3></summary>
 <div markdown="1">
 
 - 로그인 여부
@@ -185,7 +187,7 @@
 ***
 
 <details>
-<summary><h3>관리자</h3></summary>
+<summary><h3>관리자 👆</h3></summary>
 <div markdown="1">
 
 - 회원관리
