@@ -65,7 +65,7 @@
     - 지역 : GCP Seoul(asia-northeast3)
     - 용도 : 차트정보 및 앨범커버 이미지
 
-    Cloud SQL
+    Google Cloud SQL
     - 데이터베이스 엔진 : MySQL
     - Version : 8.0
     - Data Size : 100GB
