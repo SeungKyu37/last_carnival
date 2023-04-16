@@ -1,6 +1,8 @@
 # Last Carnival(~2023.04.07)
 
 + 배포 링크 : [Last Carnival 링크](http://34.64.74.137:8080/)
++ 발표 및 시연 영상 : [발표 및 시연 영상 링크](https://www.youtube.com/watch?v=uRI4HGNa5J4)
++ 포트폴리오 : 
 
 
 ![index](https://user-images.githubusercontent.com/120995522/230261320-2809c8f6-0e18-4b42-8576-9913432e5833.PNG)
