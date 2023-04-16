@@ -2,7 +2,7 @@
 
 + 배포 링크 : [Last Carnival 링크](http://34.64.74.137:8080/)
 + 발표 및 시연 영상 : [발표 및 시연 영상 링크](https://www.youtube.com/watch?v=uRI4HGNa5J4)
-+ 포트폴리오 : 
++ 포트폴리오 : [포트폴리오](https://github.com/SeungKyu37/last_carnival/blob/main/pdf/%EC%9D%8C%EC%95%85_%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0_%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8_%EA%B9%80%EC%8A%B9%EA%B7%9C.pdf)
 
 
 ![index](https://user-images.githubusercontent.com/120995522/230261320-2809c8f6-0e18-4b42-8576-9913432e5833.PNG)
